@@ -1,0 +1,52 @@
+body {
+    height: 100dvh;
+}
+
+.left-nav {
+    background-color:antiquewhite;
+}
+
+.mail-area {
+    background-color:ghostwhite;
+}
+
+.nav-items-div {
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.tablet-nav-item {
+    text-decoration: none;
+    color: black;
+}
+
+.icon-button {
+    background-color:antiquewhite;
+    margin-top:10px;
+    width: 100%;
+    border-width:0px;
+}
+
+.icon-button-tablet {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: antiquewhite;
+    border-width:2px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.form-item {
+    margin-top: 10px;
+}
+
+.message-box {
+    justify-content: center;
+    width: 97%;
+    height: 70px;
+    margin: 10px;
+    box-shadow: 0 0 10px gray;
+    padding: 10px;
+}
